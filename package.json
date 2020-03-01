@@ -1,10 +1,11 @@
 {
-  "name": "loopback4-starter",
+  "name": "proser3-be-starter",
   "version": "1.0.1",
-  "description": "A boilerplate starter code base for setting up a loopback4 API for a multi-tenant application",
+  "description": "A starter authorization app fro Proser 3",
   "keywords": [
     "loopback-application",
-    "loopback"
+    "loopback",
+    "·Proser"
   ],
   "main": "index.js",
   "engines": {
@@ -25,8 +26,8 @@
     "test": "lb-mocha --allow-console-logs \"dist/__tests__\"",
     "posttest": "npm run lint",
     "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest",
-    "docker:build": "docker build -t loopback4-starter .",
-    "docker:run": "docker run -p 3000:3000 -d loopback4-starter",
+    "docker:build": "docker build -t proser3-be-starter .",
+    "docker:run": "docker run -p 3000:3000 -d proser3-be-starter",
     "migrate": "node ./dist/migrate",
     "prestart": "npm run build",
     "start": "node .",

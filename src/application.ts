@@ -25,7 +25,7 @@ import {
 } from './modules/auth';
 import {MySequence} from './sequence';
 
-export class Loopback4StarterApplication extends BootMixin(
+export class Proser3BeStarterApplication extends BootMixin(
   ServiceMixin(RepositoryMixin(RestApplication)),
 ) {
   constructor(options: ApplicationConfig = {}) {
