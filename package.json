@@ -81,6 +81,7 @@
     "@types/jsonwebtoken": "^8.3.2",
     "@types/node": "^10.11.2",
     "eslint": "^6.0.1",
+    "eslint-utils": "^2.0.0",
     "tslint": "^5.18.0",
     "typescript": "^3.5.2"
   }
